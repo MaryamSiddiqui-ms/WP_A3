@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import data from './data.json';
+import Birthday from './Birthday';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ const [people, setPeople] = useState([]);
+
+ useEffect(() => {
+   setPeople(data);
+ }, []);
+
+ return (
+   <div className="App">
+     <Birthday people={people} />
+   </div>
+ );
 }
 
 export default App;

@@ -1,38 +1,82 @@
 .App {
-  text-align: center;
-}
+    background-color: #f48ab2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 80px;
+   }
+   
+   .birthday {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+    transition: 0.3s;
+    width: 50%;
+    /* padding: 10px; */
+    background-color: white;
+    text-align: center;
+    /* margin-bottom: 20px; */
+   }
+   
+   .birthday-count-display{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 30px;
+   }
+   .img-logo-details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width:60%;
+   }
+ 
+  .img-logo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+ }
+  
+   .name {
+    font-size: 1.2em;
+    font-weight: bold;
+   }
+   
+   .age {
+    color: gray;
+    font-size: 1em;
+   }
+   
+   .details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+   }
+   
+   
+   
+   
+   
+   
+   .clear-all-button {
+    background-color: #f587b1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+   .clear-all-button:hover{
+        box-shadow: 0 8px 16px 0 rgba(91, 29, 87, 0.6);
+   }
+   
