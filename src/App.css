@@ -1,82 +1,75 @@
 .App {
-    background-color: #f48ab2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 80px;
-   }
-   
-   .birthday {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-    transition: 0.3s;
-    width: 50%;
-    /* padding: 10px; */
-    background-color: white;
-    text-align: center;
-    /* margin-bottom: 20px; */
-   }
-   
-   .birthday-count-display{
-    font-size: 25px;
-    text-align: left;
-    padding-left: 30px;
-   }
-   .img-logo-details{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    width:60%;
-   }
- 
-  .img-logo{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
- }
-  
-   .name {
-    font-size: 1.2em;
-    font-weight: bold;
-   }
-   
-   .age {
-    color: gray;
-    font-size: 1em;
-   }
-   
-   .details {
-    display: flex;
-    justify-content: flex-start;
-    align-items: left;
-    flex-direction: column;
-    text-align: left;
+  background-color: #f48ab2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 80px;
+}
 
-   }
-   
-   
-   
-   
-   
-   
-   .clear-all-button {
-    background-color: #f587b1;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 100%;
+.birthday {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
 
-   }
+.birthday-count-display {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 30px;
+}
 
-   .clear-all-button:hover{
-        box-shadow: 0 8px 16px 0 rgba(91, 29, 87, 0.6);
-   }
-   
+.img-logo-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 60%;
+}
+
+.img-logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.age {
+  color: gray;
+  font-size: 1em;
+  margin-top: -10px;
+}
+
+.details {
+  padding: 0px 20px;
+  text-align: left;
+  width: calc(100% - 100px);
+}
+
+.clear-all-button {
+  background-color: #f587b1;
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0px;
+  transition: 0.2s all;
+}
+
+.clear-all-button:hover {
+  /* box-shadow: 0 4px 16px 0 rgba(91, 29, 87, 0.6); */
+  background-color: #f378a7;
+  box-shadow: 0 2px 4px 0 rgba(91, 29, 87, 0.6);
+  transition: 0.2s all;
+}

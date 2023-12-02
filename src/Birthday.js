@@ -20,6 +20,7 @@ function Birthday({ people: initialPeople }) {
 
     setPeople(birthdayPeople);
     setBirthdayCount(birthdayPeople.length);
+    console.log(birthdayPeople)
   }, [initialPeople]);
 
   const clearAll = () => {

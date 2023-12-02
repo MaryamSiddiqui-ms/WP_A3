@@ -4,14 +4,14 @@
       "name": "Maryam Siddiqui",
       "age": 22,
       "image": "./assets/1.jpg",
-      "birthday":"2023-12-01"
+      "birthday":"2023-12-02"
     },
     {
       "id": 2,
       "name": "Mehma Waseem",
       "age": 20,
       "image": "./assets/2.jpg",
-      "birthday":"2023-12-01"
+      "birthday":"2023-12-02"
     },
     {
         "id": 3,
