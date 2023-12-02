@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./css/card.css";
-import data from "./data.json";
 
 function Card(props) {
   console.log(props.image);
