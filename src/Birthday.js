@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
-import "./App.css";
+import "./css/birthday.css";
 
 function Birthday({ people: initialPeople }) {
   const [people, setPeople] = useState([]);

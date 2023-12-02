@@ -1,0 +1,34 @@
+.birthday {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  width: 30%;
+  background-color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.birthday-count-display {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.clear-all-button {
+  background-color: #f587b1;
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px 0px;
+  transition: 0.2s all;
+}
+
+.clear-all-button:hover {
+  /* box-shadow: 0 4px 16px 0 rgba(91, 29, 87, 0.6); */
+  background-color: #f378a7;
+  box-shadow: 0 2px 4px 0 rgba(91, 29, 87, 0.6);
+  transition: 0.2s all;
+}
