@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import data from './data.json';
-import Birthday from './Birthday';
+import Birthday from './components/Birthday';
 
 function App() {
  const [people, setPeople] = useState([]);
